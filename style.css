@@ -1,0 +1,195 @@
+
+
+
+body{
+    margin: 0;
+    font-family: lexend, sans-serif;
+    background-color: #E8DCC7;
+    color: #5A4A3A;
+}
+
+header {
+    padding: 20px;
+    background-color: #A67C6B;
+    color:  #462c24;
+    text-align: center;
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 4px;
+    margin: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 27px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color:  #412e3e;
+    font-weight: bold;
+    padding: 7px 7px;
+    border: pink 4px groove;
+    margin: 0 4px;
+    display: center;
+}
+
+nav a:hover {
+    color: rgb(204, 110, 157);
+    background-color: #8C6658;
+}
+
+.overskrift {
+    text-align: center;
+    margin-top: 42px;
+    margin-bottom: -4px;
+    border-bottom: #462c24 1px solid;
+}
+
+.kategorier {
+    display: flex;
+    gap: 22px;
+    padding: 22px;
+}
+
+.kort img {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 777px;
+    margin-top: 17px;
+
+    border: 4px dotted transparent;
+    transition: border-color 0.2s ease;
+}
+
+.kort:hover img{
+    border-color: #5A4A3A;
+}
+
+.kort {
+    position: relative;
+    display: block;
+    max-width: 300px;
+    text-decoration: none;
+}
+
+.kort .link {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: rgba(70, 44, 36, 0.7);
+    color: #E8DCC7;
+    border-radius: 6px;
+    
+    font-weight: bold;
+    font-size: 1.3rem;
+
+    opacity: 0;
+    transition: opacity 0.2s ease;
+
+    pointer-events: none;
+    z-index: 2;
+}
+
+.kort:hover .link {
+    opacity: 1;
+}
+
+.tekst {
+    text-align: center;
+    margin: 22px  37px 6px;
+    padding: 12px;
+    border:  solid 2px #462c24;
+
+}
+
+strong {
+    font-weight: 700;
+}
+
+.banner {
+    width: 100%;
+    margin-bottom: 22px;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    object-fit: contain;
+    display: block;
+    border: #462c24 4px solid;
+}
+
+.kontaktoss {
+    text-align: center;
+    margin: 44px 6px;
+}
+
+.kontaktoss .knapp {
+    margin: 7px;
+    display: inline-block;
+}
+
+.knapp {
+    text-decoration: none;
+    color:  #412e3e;
+    padding: 7px 7px;
+    border: pink 4px groove;
+    margin: 0 4px;
+    display: center;
+}
+
+.knapp:hover {
+    color: rgb(204, 110, 157);
+    border-bottom: #462c24 1px solid;
+    border: groove pink 4px;
+}
+
+.kontakt-skjema {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    max-width: 444px;
+    width: 100%;
+    margin: 42px auto;
+    padding: 22px;
+
+    text-align: center;
+}
+
+.kontakt-skjema label {
+    display: block;
+    text-align: center;
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+.kontakt-skjema input {
+    width: 222px;
+    max-width: auto;
+}
+
+.kontakt-skjema textarea {
+    width: 444px;
+    max-width: auto;
+}
+
+button {
+    display: block;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    text-align: center;
+    padding: 22px 4px;
+    margin-top: 44px;
+    border-top: #462c24 solid 1px;
+}
