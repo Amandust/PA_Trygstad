@@ -2,6 +2,7 @@
 
 
 Trygstad Gård – WR2 Prosjekt
+
 Dette prosjektet er laget som en del av Work Requirement 2. Målet var å lage en enkel nettside med HTML, CSS, navigasjon, skjema og riktig bruk av Git og GitHub.
 
 
