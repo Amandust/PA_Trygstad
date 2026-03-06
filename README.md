@@ -51,3 +51,4 @@ få god struktur på css
 slette overflødig kode i css
 sentrere send knapp inne i kontakt
 forbedre layout inne i kontakt
+sette max bredde på tekstboks under bildene
