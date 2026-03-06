@@ -118,7 +118,12 @@ strong {
 
 .banner {
     width: 100%;
+    height: auto;
     margin-bottom: 22px;
+    object-position: center;
+    border: #462c24 4px solid;
+    max-width: 888px;
+    margin: 22px auto 22px auto;
 }
 
 .banner img {
@@ -127,7 +132,6 @@ strong {
     margin: 0 auto;
     object-fit: contain;
     display: block;
-    border: #462c24 4px solid;
 }
 
 .kontaktoss {

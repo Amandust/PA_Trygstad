@@ -43,3 +43,11 @@ LICENSE (MIT)
 HTML- og CSS‑filer
 Bilder i egen mappe
 Ryddig commit‑historikk  ?
+
+
+Neste steg
+
+få god struktur på css
+slette overflødig kode i css
+sentrere send knapp inne i kontakt
+forbedre layout inne i kontakt
